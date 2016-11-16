@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <servlet>
+        <servlet-name>recupero</servlet-name>
+        <servlet-class>ServletGenerali.recupero</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Error404</servlet-name>
+        <servlet-class>ServletErrors.Error404</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>cancella</servlet-name>
+        <servlet-class>ServletGenerali.cancella</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>recupero</servlet-name>
+        <url-pattern>/recupero</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Error404</servlet-name>
+        <url-pattern>/Error404</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>cancella</servlet-name>
+        <url-pattern>/cancella</url-pattern>
+        <url-pattern>/admin/cancella</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            60
+        </session-timeout>
+    </session-config>
+    <context-param>
+        <param-name>dburl</param-name>
+        <param-value>jdbc:postgresql://localhost:5432/multiplexx</param-value>
+    </context-param>
+    <listener>
+        <description>ServletContextListener</description>
+        <listener-class>listener.listener</listener-class>
+    </listener>
+    <error-page>
+        <error-code>404</error-code>
+        <location>/Error404</location>
+    </error-page>
+</web-app>

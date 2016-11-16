@@ -1,0 +1,134 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 19-mag-2015, 10.43.46
+    Author     : Lorenzo
+*/
+/*
+body{
+    background-color: #0066cc;  
+}
+
+.jumbotron{
+    /*text-align: center;*//*
+    background-color: #A4E1E6;
+}
+
+.nav-header{
+    background-color: lightskyblue;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.nav-tabs {
+    background-color: #aa0000 !important;
+    font-size: 1.5em;
+    border-radius: 3px;
+}
+.tab-content{
+    background-color: white;
+}
+
+.signup {
+    margin: -15px;
+}
+
+.not-logged{
+    text-align: center;
+}*//*
+.not-logged input{
+    width: 200px;
+}
+.not-logged label{
+    width: 100px;
+}
+.not-logged select{
+    width: 200px;
+}
+#submit{
+    width: 300px;
+}*/
+
+#google-maps {
+    position: relative;
+    padding-bottom: 43%; // This is the aspect ratio
+    height: 0;
+    overflow: hidden;
+}
+#google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+#immagineFilm{
+    display: inline-block;
+    float: left;
+    vertical-align: top;
+    padding: 7px;
+}
+
+.locandina {
+    padding: 0;
+    border: none;    
+}
+/*
+#titoloFilm {
+    font-size: 25px;
+}
+
+#descrizioneFilm{
+    display: inline-block;
+    padding: 20px;
+}
+
+#prenotazioneFilm{
+    margin-top: 20px;
+    display: inline-block;
+    position: relative;
+    top:-30px;
+    float:right;
+}
+
+#book-button{
+    background-color: orange;
+    height: 100px;
+    width:200px;
+    font-size: 1.5em;
+}
+
+#film{
+    padding: 30px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 15px -3px black;
+    border-radius: 3px; 
+}
+*//*
+#A{
+    padding: 20px;
+}
+#B{
+    padding: 20px;
+}
+#C{
+    padding: 20px;
+}
+*/
+#errors{
+    border: 4px solid red;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    text-align: center;
+}
+
+#footer{
+    margin-top: 10px;
+    border: 2px solid black;
+    text-align: center;
+    padding: 10px;
+}

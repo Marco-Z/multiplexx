@@ -1,0 +1,14 @@
+insert into spettacolo(id_film,id_sala,data_ora) values (1,1,'13/7/2015 13:48:45');
+insert into spettacolo(id_film,id_sala,data_ora) values (2,2,'13/7/2015 13:48:45');
+insert into spettacolo(id_film,id_sala,data_ora) values (3,3,'13/7/2015 13:48:45');
+insert into spettacolo(id_film,id_sala,data_ora) values (4,4,'13/7/2015 13:48:45');
+insert into spettacolo(id_film,id_sala,data_ora) values (5,1,'13/7/2015 13:48:45');
+insert into spettacolo(id_film,id_sala,data_ora) values (6,2,'13/7/2015 13:48:45');
+insert into spettacolo(id_film,id_sala,data_ora) values (1,3,'13/7/2015 13:48:45');
+insert into spettacolo(id_film,id_sala,data_ora) values (2,4,'13/7/2015 13:48:45');
+insert into spettacolo(id_film,id_sala,data_ora) values (3,1,'13/7/2015 13:48:45');
+insert into spettacolo(id_film,id_sala,data_ora) values (4,2,'13/7/2015 13:48:45');
+insert into spettacolo(id_film,id_sala,data_ora) values (5,3,'13/7/2015 13:48:45');
+insert into spettacolo(id_film,id_sala,data_ora) values (6,4,'13/7/2015 13:48:45');
+insert into spettacolo(id_film,id_sala,data_ora) values (1,4,'13/7/2015 13:48:45');
+insert into spettacolo(id_film,id_sala,data_ora) values (2,3,'13/7/2015 13:48:45');
